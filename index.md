@@ -41,7 +41,7 @@ Avoid entering sensitive personal information that is not necessary for study pl
 
 3. Analytics and app usage information
 
-NityaAbhyasa may use Firebase Analytics, a service provided by Google, to understand how users interact with the App and to improve app performance, usability and features.
+NityaAbhyasa uses Firebase Analytics, a service provided by Google, to understand how users interact with the App and to improve app performance, usability and features.
 
 Firebase Analytics may collect information such as:
 - App opens
@@ -54,15 +54,20 @@ Firebase Analytics may collect information such as:
 - General usage and engagement information
 
 We may log events such as:
-- home_screen_view
-- calendar_screen_view
-- routine_screen_view
-- exam_screen_view
-- focus_session_started
-- focus_session_completed
-- reminder_created
-- achievement_viewed
-- premium_screen_opened, if a premium screen exists
+- screen_view
+- onboarding_started
+- onboarding_completed
+- routine_creation_opened
+- routine_created
+- routine_block_added
+- task_created
+- focus_started
+- focus_completed
+- focus_skipped
+- exam_countdown_created
+- achievement_unlocked
+- backup_created
+- backup_restored
 
 NityaAbhyasa does not send the following personal study content to Firebase Analytics:
 - Study notes
@@ -188,7 +193,7 @@ The current version of NityaAbhyasa does not use:
 - Paid subscriptions
 - In-app purchases
 
-The App may use Firebase Analytics to understand general app usage and improve the App.
+The App uses Firebase Analytics to understand general app usage and improve the App.
 
 Firebase Analytics is not used to collect the contents of your study notes, task descriptions, exam names, reminder text, backup files or other personal study content.
 
@@ -200,7 +205,7 @@ We do not sell, rent or trade personal information.
 
 Your locally stored study content, such as tasks, notes, routines, exams and backup files, is not sold, rented or traded.
 
-If Firebase Analytics is enabled, general app usage and device-related analytics information may be processed by Google/Firebase to provide analytics services. We do not use Firebase Analytics to send the contents of your study notes, task descriptions, reminder text, exam names or backup files.
+Since Firebase Analytics is enabled, general app usage and device-related analytics information may be processed by Google/Firebase to provide analytics services. We do not use Firebase Analytics to send the contents of your study notes, task descriptions, reminder text, exam names or backup files.
 
 Information may be processed independently by Android, Google Play, email providers, storage providers or device manufacturers when you use their services.
 
@@ -217,7 +222,9 @@ You should:
 
 NityaAbhyasa is intended for users aged 13 years and above.
 
-The App is not directed to children under 13 and does not knowingly collect information from children through accounts, advertising systems, analytics systems or developer-controlled servers.
+The App is not directed to children under 13 and does not knowingly collect personal information from children through accounts, advertising systems or developer-controlled servers.
+
+Firebase Analytics may collect general app usage and device-related analytics information, but NityaAbhyasa does not use Firebase Analytics to collect study notes, task text, exam names, reminder text, backup file contents or other personal study content.
 
 A parent or guardian who believes that a child has sent personal information through feedback email may contact us to request deletion.
 
