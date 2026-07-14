@@ -1,7 +1,7 @@
 Privacy Policy for NityaAbhyasa: Study Planner
 
-Effective date: June 26, 2026
-Last updated: June 26, 2026
+Effective date: July 2026
+Last updated: July 2026
 
 1. Introduction
 
