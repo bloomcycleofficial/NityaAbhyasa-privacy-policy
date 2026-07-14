@@ -233,5 +233,3 @@ For privacy questions, support requests or deletion requests concerning informat
 
 App: NityaAbhyasa: Study Planner
 Email: bloomcycleofficial@gmail.com
-
-Please include "NityaAbhyasa Privacy" in the subject line.
