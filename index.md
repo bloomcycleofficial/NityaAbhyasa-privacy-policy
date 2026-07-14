@@ -14,7 +14,8 @@ The current version:
 - Does not require an account or login
 - Does not contain advertisements
 - Does not offer subscriptions or in-app purchases
-- Does not use analytics or crash-reporting services
+- Uses Firebase Analytics to understand general app usage and improve the App
+- Does not use Firebase Analytics to collect study notes, task text, exam names, reminder text, or other personal study content
 - Does not upload study information to developer-controlled servers
 - Stores study information locally on the user's device
 
@@ -37,6 +38,44 @@ This information is used only to provide the App's features and is stored locall
 Optional fields may be left blank.
 
 Avoid entering sensitive personal information that is not necessary for study planning.
+
+3. Analytics and app usage information
+
+NityaAbhyasa may use Firebase Analytics, a service provided by Google, to understand how users interact with the App and to improve app performance, usability and features.
+
+Firebase Analytics may collect information such as:
+- App opens
+- Screen views
+- Feature usage events
+- Device type
+- Operating system version
+- App version
+- Approximate location based on device/network signals, if provided by Google services
+- General usage and engagement information
+
+We may log events such as:
+- home_screen_view
+- calendar_screen_view
+- routine_screen_view
+- exam_screen_view
+- focus_session_started
+- focus_session_completed
+- reminder_created
+- achievement_viewed
+- premium_screen_opened, if a premium screen exists
+
+NityaAbhyasa does not send the following personal study content to Firebase Analytics:
+- Study notes
+- Task titles or task descriptions
+- Subject names entered by the user
+- Exam names entered by the user
+- Reminder text
+- Backup file contents
+- Personal messages sent through feedback email
+
+Analytics information is used to understand app usage, fix issues, improve features and make the App more useful.
+
+Firebase is provided by Google and handles data according to Google's applicable privacy and security practices.
 
 3. Accounts and personal information
    
@@ -144,22 +183,24 @@ Your study information is not automatically uploaded to us merely because the Ap
 The current version of NityaAbhyasa does not use:
 - Advertising SDKs
 - Personalised advertising
-- Behavioural tracking
-- Firebase Analytics
-- Google Analytics
-- Firebase Crashlytics
-- Third-party user analytics
+- Behavioural advertising
 - Google Play Billing
 - Paid subscriptions
 - In-app purchases
 
-If these features are added later, this Privacy Policy and the Google Play Data Safety declaration will be updated.
+The App may use Firebase Analytics to understand general app usage and improve the App.
+
+Firebase Analytics is not used to collect the contents of your study notes, task descriptions, exam names, reminder text, backup files or other personal study content.
+
+The App does not currently use Firebase Crashlytics. If crash reporting, advertising, subscriptions, in-app purchases, login or cloud sync are added later, this Privacy Policy and the Google Play Data Safety declaration will be updated.
 
 9. Data sharing and security
 
 We do not sell, rent or trade personal information.
 
-Your locally stored study information is not shared with advertisers, analytics providers or data brokers.
+Your locally stored study content, such as tasks, notes, routines, exams and backup files, is not sold, rented or traded.
+
+If Firebase Analytics is enabled, general app usage and device-related analytics information may be processed by Google/Firebase to provide analytics services. We do not use Firebase Analytics to send the contents of your study notes, task descriptions, reminder text, exam names or backup files.
 
 Information may be processed independently by Android, Google Play, email providers, storage providers or device manufacturers when you use their services.
 
