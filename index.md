@@ -116,7 +116,7 @@ Backup files may contain personal study information. Store them securely and sha
 
 Deleting App data or uninstalling NityaAbhyasa does not automatically delete backup files saved outside the App.
 
-5. Deleting App data
+6. Deleting App data
 
 You can delete locally stored information by:
 - Deleting individual records inside the App
@@ -130,7 +130,7 @@ Because the information is not stored on our servers, we generally cannot recove
 
 Backup files saved outside the App must be deleted separately.
 
-6. Feedback and support
+7. Feedback and support
 
 The App may include a feedback option that opens your email application.
 
@@ -149,7 +149,7 @@ Do not send passwords, payment details, government identification numbers or oth
 
 You may request deletion of feedback correspondence by contacting us.
 
-7. Permissions and device features
+8. Permissions and device features
 
 NityaAbhyasa may use the following Android features:
 
@@ -178,7 +178,7 @@ May be used to open:
 
 Your study information is not automatically uploaded to us merely because the App has internet access.
 
-8. Advertising, analytics and payments
+9. Advertising, analytics and payments
 
 The current version of NityaAbhyasa does not use:
 - Advertising SDKs
@@ -194,7 +194,7 @@ Firebase Analytics is not used to collect the contents of your study notes, task
 
 The App does not currently use Firebase Crashlytics. If crash reporting, advertising, subscriptions, in-app purchases, login or cloud sync are added later, this Privacy Policy and the Google Play Data Safety declaration will be updated.
 
-9. Data sharing and security
+10. Data sharing and security
 
 We do not sell, rent or trade personal information.
 
@@ -213,7 +213,7 @@ You should:
 - Avoid sharing an unlocked device
 - Avoid entering unnecessary sensitive information
 
-10. Children's privacy
+11. Children's privacy
 
 NityaAbhyasa is intended for users aged 13 years and above.
 
@@ -221,13 +221,13 @@ The App is not directed to children under 13 and does not knowingly collect info
 
 A parent or guardian who believes that a child has sent personal information through feedback email may contact us to request deletion.
 
-11. Changes to this Privacy Policy
+12. Changes to this Privacy Policy
 
 We may update this Privacy Policy when App features, permissions, third-party services, data practices, legal requirements or Google Play requirements change.
 
 The revised policy will display a new "Last updated" date.
 
-12. Contact us
+13. Contact us
 
 For privacy questions, support requests or deletion requests concerning information sent through feedback email, contact:
 
