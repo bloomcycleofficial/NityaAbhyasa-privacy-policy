@@ -77,7 +77,7 @@ Analytics information is used to understand app usage, fix issues, improve featu
 
 Firebase is provided by Google and handles data according to Google's applicable privacy and security practices.
 
-3. Accounts and personal information
+4. Accounts and personal information
    
 NityaAbhyasa does not create online user accounts.
 
@@ -94,7 +94,7 @@ The App does not directly request:
 
 Because no online account is created, there is no NityaAbhyasa account to delete.
 
-4. Backup and restore
+5. Backup and restore
 
 NityaAbhyasa allows you to create and restore a .nityaabhyasa backup file.
 
