@@ -35,6 +35,8 @@ You may voluntarily enter information such as:
 
 This information is used only to provide the App's features and is stored locally on your device.
 
+Unfinished countdown and stopwatch session information is stored locally to recover progress after interruptions. This recovery information is not sent to developer-controlled servers and is excluded from backup files.
+
 Optional fields may be left blank.
 
 Avoid entering sensitive personal information that is not necessary for study planning.
